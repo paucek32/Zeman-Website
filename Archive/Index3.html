@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeman Tool & Manufacturing</title>
+    <meta name="description" content="Precision Machining & Workholding Solutions by Zeman Tool & Manufacturing">
+    <meta name="keywords" content="precision machining, workholding solutions, Zeman Tool, manufacturing">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style003.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- External JavaScript Files -->
+    <script defer src="js/scripts003.js"></script>
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- Header and Navigation -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Main Navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#home"><img src="Media/zeman logo.png" alt="Zeman Tool & Manufacturing Logo"></a>
+                </div>
+                <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- Hamburger icon -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul id="primary-navigation" class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#quote" class="cta-button">Request a Quote</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Zeman Tool &amp; Manufacturing</h1>
+                <p>Delivering Precision Machining &amp; Workholding Solutions</p>
+                <a href="#services" class="cta-button">Learn More</a>
+                <a href="#quote" class="cta-button">Request a Quote</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="content-section">
+            <h2>Our Services</h2>
+            <div class="swiper-container services-carousel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide service-item">
+                        <img src="Media/5-axis-mach.jpg" alt="5-Axis Machining">
+                        <h3>5-Axis Machining</h3>
+                        <p>High-precision machining for complex components.</p>
+                    </div>
+                    <!-- Additional service slides -->
+                </div>
+                <!-- Swiper Controls -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <!-- Industries Section -->
+        <section id="industries" class="content-section two-columns">
+            <div class="column">
+                <h2>Industries We Serve</h2>
+                <p>We serve industries such as aerospace, automotive, medical, and more.</p>
+            </div>
+            <div class="column">
+                <img src="Media/industries.jpg" alt="Industries Image">
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="content-section two-columns">
+            <div class="column">
+                <h2>About Us</h2>
+                <p>Modern 21st Century manufacturing includes various processes, such as product development, part repair, prototyping, and production. Zeman Tool has redefined custom manufacturing. It is the ability to create a quality product for any specified need. Our skills and expertise in managing projects assure positive customer relationships. Our close-knit manufacturing team works together, guaranteeing the finest quality equipment. Zeman Tool is prepared to take on any project to serve the needs of your organization. Custom manufacturing with Zeman Tool extends much further than a product’s creation—it is a lasting partnership.</p>
+            </div>
+            <div class="column">
+                <!-- Swiper for Testimonials -->
+                <div class="swiper-container testimonials-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <blockquote class="testimonial">
+                                <p>"Zeman Tool provided us with top-notch precision machining services!"</p>
+                                <footer>- Customer A</footer>
+                            </blockquote>
+                        </div>
+                        <!-- Additional testimonial slides -->
+                    </div>
+                    <!-- Swiper Controls -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2>Contact Us</h2>
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name<span aria-hidden="true">*</span></label>
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email<span aria-hidden="true">*</span></label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message<span aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Request a Quote Section -->
+        <section id="quote" class="content-section">
+            <h2>Request a Quote</h2>
+            <form action="quote.php" method="post">
+                <div class="form-group">
+                    <label for="company">Company Name<span aria-hidden="true">*</span></label>
+                    <input type="text" id="company" name="company" required aria-required="true">
+                </div>
+                <!-- Additional form fields -->
+                <button type="submit" class="cta-button">Submit Request</button>
+            </form>
+        </section>
+
+        <!-- Blog/Resources Section -->
+        <section id="blog" class="content-section">
+            <h2>Blog & Resources</h2>
+            <article>
+                <h3><a href="blog-post.html">Latest Industry Insights</a></h3>
+                <p>Summary of the latest blog post.</p>
+                <a href="blog-post.html" class="read-more">Read More</a>
+            </article>
+            <!-- Additional blog articles -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-left">
+                <a href="#home"><img src="Media/zeman-logo.png" alt="Company Logo" class="footer-logo"></a>
+            </div>
+            <div class="footer-center">
+                <p>&copy; <span id="currentYear"></span> Zeman Tool & Manufacturing. All rights reserved.</p>
+                <p>123 Manufacturing Lane, Madison, WI 53703</p>
+                <p>Email: <a href="mailto:info@zemantool.com">info@zemantool.com</a> | Phone: <a href="tel:1234567890">(123) 456-7890</a></p>
+            </div>
+            <div class="footer-right">
+                <ul class="social-links">
+                    <li><a href="#"><img src="Media/facebook-icon.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="Media/twitter-icon.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="Media/linkedin-icon.png" alt="LinkedIn"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Scripts -->
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Your Custom JS -->
+    <script src="js/script.js"></script>
+
+    <!-- Google Analytics -->
+    <!-- Replace 'UA-XXXXXXXXX-X' with your actual Tracking ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
+</body>
+</html>

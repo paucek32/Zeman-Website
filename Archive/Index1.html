@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Precision Machining & Workholding Solutions by Zeman Tool & Manufacturing">
+    <meta name="keywords" content="precision machining, workholding solutions, Zeman Tool, manufacturing">
+    <title>Zeman Tool & Manufacturing</title>
+    <link rel="stylesheet" href="CSS/style001.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="Media/zeman logo.png" alt="Company Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#industries">Industries</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Zeman Tool & Manufacturing</h1>
+            <p>Delivering Precision Machining & Workholding Solutions</p>
+            <a href="#services" class="cta-button">Learn More</a>
+            <a href="#contact" class="cta-button">Request a Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="content-section">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-item">
+                <img src="Media/5 axis mach.jpg" alt="Service 1">
+                <h3>5-Axis Machining</h3>
+                <p>Our versatile multiaxis machining capability can produce unique and complex parts along 5 axes in a single machine set-up. This increases accuracy and efficiency during the creation process.</p>
+            </div>
+            <div class="service-item">
+                <img src="Media/high speed mach.jpg" alt="Service 2">
+                <h3>High-Speed Machining</h3>
+                <p>Zeman has several high-speed capability machines. With 3D functionality, linear liquid cooled drives, 42,000 rpm spindles, balanced shrink fit holders, laser pre-setters, and online cameras provide remote monitors for around-the-clock machining. With these high rpm’s and cutters down to .005” diameter, Zeman can cut the finest details..</p>
+            </div>
+            <div class="service-item">
+                <img src="Media/boring mill.jpg" alt="Service 3">
+                <h3>Boring Mills</h3>
+                <p>Zeman has an array of boring mills capable of machining parts up to 7 tons.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="content-section two-columns">
+        <div class="column">
+            <h2>Industries We Serve</h2>
+            <p>Description of the industries Zeman Tool & Manufacturing serves.</p>
+        </div>
+        <div class="column">
+            <img src="industries.jpg" alt="Industries">
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="content-section two-columns">
+        <div class="column">
+            <h2>About Us</h2>
+            <p>Information about Zeman Tool & Manufacturing, including history, mission, and values.</p>
+        </div>
+        <div class="column">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"Zeman Tool provided us with top-notch precision machining services!" - Customer A</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"The workholding solutions from Zeman Tool are unparalleled." - Customer B</p>
+                        </div>
+                    </div>
+		<div class="swiper-slide">
+                        <div class="testimonial">
+                            <p>"We love Zeman and use them for all of our manufacturing needs." - Customer C</p>
+                        </div>
+                    </div>
+                    <!-- Add more slides as needed -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Resources Section -->
+    <section id="blog" class="content-section">
+        <h2>Blog & Resources</h2>
+        <article>
+            <h3>Latest Industry Insights</h3>
+            <p>Summary of the latest blog post.</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section two-columns">
+        <div class="column">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="column">
+            <button id="liveChatButton" class="cta-button">Live Chat</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Zeman Tool & Manufacturing. All rights reserved.</p>
+    </footer>
+
+    <!-- External Scripts -->
+    <script src="scripts.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 20, // Add space between slides
+        });
+    </script>
+</body>
+</html>
